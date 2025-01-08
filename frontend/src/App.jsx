@@ -12,7 +12,7 @@ const App = () => {
     <Router>
       <ToastContainer />
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/*" element={<Login />} />
         <Route
           path="/superadmin/*"
           element={
